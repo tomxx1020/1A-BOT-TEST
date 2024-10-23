@@ -7,10 +7,9 @@ module.exports.config = {
   Prefix: false,
   Category: "Noprefix",
   premium: false,
-  commandCategory: "noPrefix",
+  Category: "noPrefix",
   usages: "[]",
   cooldowns: 1,
-  usePrefix: false
 };
 
 module.exports.handleEvent = async function ({ api, event, Users }) {
